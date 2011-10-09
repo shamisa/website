@@ -11,11 +11,13 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 /* Body */
 
-html{
-  background-image: url("C:\Users\Shamisa\website\grid.png");
-  padding: 18px;
+html {
+ line-height: 22px;
+  font-size: 14px;
+  background-image: (image/22px-baseline.png');  
+  
 }
-body {background-color: white;
+body {background-color: 
 }
 
 /* Major Divisions */
