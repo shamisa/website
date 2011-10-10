@@ -14,10 +14,10 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 html {
  line-height: 22px;
   font-size: 14px;
-  background-image: (image/22px-baseline.png');  
+  background-image:'22px-baseline.png';  
   
 }
-body {background-color: 
+body {background-color:
 }
 
 /* Major Divisions */
