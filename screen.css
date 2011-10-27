@@ -11,7 +11,9 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 /* Body */
 
-
+html{line-height: 22px;
+  font-size: 14px;
+ }
 
 
 body {
@@ -30,25 +32,26 @@ div#header h1 {
 }
 div#header h1 a {
 }
-div#header p.tagline {
+div#header p.tagline 
 }
 div#header ul.accessibility {
 }
 
 /* Content */
-div#content {
+div#content { }
 }
-div#nav {
-width: 25%;
-padding: 10px;
-margin-top: 1px;
-float: left;
-}
+
+div #navigation{color: yellow;
+} 
+
 div#main {
 }
 
+
+
 div#supporting {
 }
+
 
 /* Footer */
 div#footer {
@@ -64,10 +67,18 @@ div#footer ul.validators li {
 ul#navigation {
 }
 
-ul#navigation li {
+ul#navigation li { 
 }
 
-ul#navigation li a {
+
+ul#navigation li a { float: left; margin-right: 5px
+text-align: center;
+display: inline;
+width: 100px;
+background color: white;
+padding: 5px 10px 5px 10px;
+text-decoration: none;
+color: Black;
 }
 
 ul#navigation li a:visited {
