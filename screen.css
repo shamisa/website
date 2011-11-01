@@ -28,13 +28,15 @@ div#page {
 /* Header */
 div#header {
 }
-div#header h1 {
+div#header h1 {font-weight: bold; 
+font-size: 20pt;
 }
 div#header h1 a {
 }
-div#header p.tagline 
+div#header p.tagline {font-weight: bold; 
+font-size: 12pt; 
 }
-div#header ul.accessibility {
+div#header ul.accessibility {display: none
 }
 
 /* Content */
@@ -64,35 +66,44 @@ div#footer ul.validators li {
 }
 
 /*Navigation*/
-ul#navigation {
+ul#navigation {overflow: hidden;border-top: 1px solid blue;
 }
 
-ul#navigation li { 
+ul#navigation li { float: left;
+display: inline;
+Margin-right: 5px
 }
 
 
 ul#navigation li a { float: left; margin-right: 5px
 text-align: center;
-display: inline;
+display: block;
 width: 100px;
-background color: white;
 padding: 5px 10px 5px 10px;
 text-decoration: none;
-color: Black;
+color: black;
+background-color: white;
+font-weight: bold
 }
 
 ul#navigation li a:visited {
 }
 
 ul#navigation li a:hover,
-ul#navigation li a:focus {
+ul#navigation li a:focus {background-color: yellow;
 }
 
 
 /*Content Typography: Headings*/
-div#content h2 {
+div#content h2 {font-size: 14pt;
+margin-bottom:20px;
+margin-top: 20px;
+margin-left:20px;
 }
-div#content h3 {
+div#content h3 {font-size: 14pt;
+margin-bottom:20px;
+margin-top: 20px;
+margin-left:20px;
 }
 div#content h4 {
 }
@@ -128,7 +139,7 @@ div#content * li ol li {
 }
 
 /*Content Typography: Links*/
-div#content a {
+div#content a {display: none
 }
 div#content a:visited {
 }
@@ -136,3 +147,44 @@ div#content a:hover,
 div#content a:focus {
 }
 
+p{
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+#contact li{text-align: center;}
+
+.skills li {text-align: center;}
+
+h1 {	
+	text-align: center;
+	margin-left: 20px;
+	font-size: Large;
+	font-weight: bold;
+  }
+
+h2{text-align: center;
+   margin-left: 20px;
+   font-size: Large;
+   font-weight: bold;
+} 
+ 
+h3 {
+	text-align: left;
+	margin-left: 20px;
+	font-size: Large;
+	font-weight: bold;
+}
+
+.details li { 
+	text-align:left; 
+	list-style-type: disc;
+	margin-left: 20px
+} 
+
+ul {
+	margin-bottom:20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}	
