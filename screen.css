@@ -1,5 +1,5 @@
 ﻿/* screen.css: Screen Styles */
-
+@media screen and (min-width:400px) { div {border:none;}}
 /* Base Styles */
 
 /* Bold on headings, b, and strong */
