@@ -1,44 +1,10 @@
 ﻿/* Typographic Grids */
 
-.t10 {
-  line-height: 10px;
-  font-size: 8px;
-  background-image: url('img/10px-baseline.png');
-}
-.t12 {
-  line-height: 12px;
-  font-size: 8px;
-  background-image: url('img/12px-baseline.png');
-}
-.t14 {
-  line-height: 14px;
-  font-size: 10px;
-  background-image: url('img/14px-baseline.png');
-}
-.t16 {
-  line-height: 16px;
-  font-size: 12px;
-  background-image: url('img/16px-baseline.png');
-}
-.t18 {
-  line-height: 18px;
-  font-size: 12px;
-  background-image: url('img/18px-baseline.png');
-}
-.t20 {
-  line-height: 20px;
-  font-size: 14px;
-  background-image: url('img/20px-baseline.png');
-}
+
 .t22 {
   line-height: 22px;
   font-size: 14px;
   background-image: url('22px-baseline.png');
-}
-.t24 {
-  line-height: 24px;
-  font-size: 16px;
-  background-image: url ('img/24px-baseline.png');
 }
 
 /* Column Grids */
