@@ -21,43 +21,49 @@ body {
 /* Page (Containing Div) */
 div#page {width: 800px; 
 
-
 }
 
+    
 /* Header */
-div#header {display:
+div#header {padding: 0px;
 }
 div#header h1 {
+
 }
 div#header h1 a {
 }
-div#header p.tagline {
- 
+p.tagline {Margin-left: 0px;
+margin-bottom: 1px; 
+
 }
+
 /*Hide Stuff */
 div#header ul.accessibility {display: none;
 }
 
 /* Content */
-div#content { }
+div#content { 
 }
 
-div #navigation{color: yellow;
+div #navigation{color: 
 } 
 
-div#main {
+div#main {margin-left: 0px;
 }
 
 
 
 div#supporting ul.expertise {
 text-align: center;
+margin-bottom:0px;
+margin-top: 0px;
+margin-left: 0px;
 }
 
 /* Footer */
-div#footer {margin: left;
+div#footer {margin-left:
 }
-div#footer p.credits {
+div#footer p.credits {margin-left: 0px;
 }
 div#footer ul.validators {
 }
@@ -67,19 +73,21 @@ div#footer ul.validators li {
 /*Navigation*/
 ul#navigation {overflow: hidden;
 border-top: 1px solid blue;
+margin-left: 0px;
 }
 
 ul#navigation li {float: left;
 display: inline;
-Margin-right: 10px;
+Margin-right: 2px;
+Width: 84px
 }
 
 
-ul#navigation li a {float: left; margin-right: 2px;
+ul#navigation li a {float: left; margin-right: 0px;
 text-align: center;
 display: block;
-width: 84px;
-padding: ;
+width: 54px;
+padding: 
 text-decoration: none;
 color: black;
 background-color: white;
@@ -96,13 +104,13 @@ ul#navigation li a:focus {background-color: yellow;
 
 /*Content Typography: Headings*/
 div#content h2 {font-size: 14pt;
-margin-bottom:20px;
-margin-top: 20px;
+margin-bottom:15px;
+margin-top: 15px;
 
 }
 div#content h3 { font-size: 14pt;
-margin-bottom: 20px;
-margin-top: 20px;
+margin-bottom: 15px;
+margin-top: 15px;
 }
 div#content h4 {
 }
@@ -138,7 +146,7 @@ div#content * li ol li {
 }
 
 /*Content Typography: Links*/
-div#content a {display: none
+div#content a {display: none;
 }
 div#content a:visited {
 }
