@@ -13,7 +13,7 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {
+body {background-color: 
 }
 
 /* Major Divisions */
@@ -26,14 +26,20 @@ div#page {width: 800px;
     
 /* Header */
 div#header {padding: 0px;
-}
-div#header h1 {
+font-size: 14; line-height: 22px; margin-bottom: 22px;
 
 }
-div#header h1 a {
+div#header h1 {font-size: 14; line-height: 22px; margin-bottom: 22px;
+
+}
+div#header h1 a {font-size: 28; line-height: 44px; margin-bottom: 22px;
+
 }
 p.tagline {Margin-left: 0px;
-margin-bottom: 1px; 
+margin-bottom: 22px;
+font-size: 28; line-height: 44px;
+Margin-top: 0px;
+Position: relative; 
 
 }
 
@@ -50,12 +56,17 @@ div #navigation{color:
 
 div#main {margin-left: 0px;
 }
+div#main p{font-size: 28; line-height: 44px;
+}
 
+div#main h2 {font-size: 28; line-height: 44px;}
 
+div#supporting h2{font-size: 28; line-height: 44px;}
 
 div#supporting ul.expertise {
 text-align: center;
-margin-bottom:0px;
+margin-bottom:22px;
+font-size: 28; line-height: 44px;
 margin-top: 0px;
 margin-left: 0px;
 }
@@ -67,31 +78,35 @@ div#footer p.credits {margin-left: 0px;
 }
 div#footer ul.validators {
 }
-div#footer ul.validators li {
+div#footer ul.validators li {display: none;
 }
 
 /*Navigation*/
 ul#navigation {overflow: hidden;
 border-top: 1px solid blue;
+margin-bottom: 22px;
 margin-left: 0px;
+font-size: 28; line-height: 44px;
 }
 
 ul#navigation li {float: left;
 display: inline;
 Margin-right: 2px;
-Width: 84px
+Width: 99px
+font-size: 28; line-height: 44px;
 }
 
 
 ul#navigation li a {float: left; margin-right: 0px;
 text-align: center;
 display: block;
-width: 54px;
+width: 84px;
 padding: 
 text-decoration: none;
 color: black;
 background-color: white;
-font-weight: bold
+font-weight: bold;
+
 }
 
 ul#navigation li a:visited {
@@ -104,8 +119,8 @@ ul#navigation li a:focus {background-color: yellow;
 
 /*Content Typography: Headings*/
 div#content h2 {font-size: 14pt;
-margin-bottom:15px;
-margin-top: 15px;
+margin-bottom:22px;
+font-size: 28; line-height: 44px;
 
 }
 div#content h3 { font-size: 14pt;
@@ -155,9 +170,10 @@ div#content a:focus {
 }
 
 p{
-	margin-bottom:20px;
-	margin-top: 20px;
-	margin-left:20px;
+	margin-bottom:22px;
+	margin-top: 22px;
+	margin-left:0px;
+	font-size: 28; line-height: 44px;
 }
 
 #contact li{text-align: center;}
@@ -193,3 +209,5 @@ ul {
 	margin-top: 20px;
 	margin-left: 20px;
 }	
+
+.floatright { float: right; margin: 15px 15px 15px 15px; }
