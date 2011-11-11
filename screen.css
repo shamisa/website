@@ -85,9 +85,9 @@ margin-left: 0px;
 
 ul#navigation li {float: left;
 display: inline;
-Margin-right: 2px;
+Margin-right: 5px;
 Width: 99px
-font-size: 14; line-height: 44px;
+font-size: 20px; line-height: 44px;
 }
 
 
@@ -100,7 +100,7 @@ text-decoration: none;
 color: black;
 background-color: white;
 font-weight: bold;
-
+font-size: 14px;
 }
 
 ul#navigation li a:visited {
@@ -210,4 +210,9 @@ ul {
 	
 }	
 
-.floatright { float: right; margin: 15px 15px 15px 15px; }
+/*media quieries*/
+@media screen and (max-device-width: 400px) {{ div {border:none;}
+  .column {
+    float: none;
+  }
+  
