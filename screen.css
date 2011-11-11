@@ -13,7 +13,7 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background-color: 
+body {background-color:  
 }
 
 /* Major Divisions */
@@ -26,18 +26,18 @@ div#page {width: 800px;
     
 /* Header */
 div#header {padding: 0px;
-font-size: 14; line-height: 22px; margin-bottom: 22px;
+font-size: 14px; line-height: 22px; margin-bottom: 22px;
 
 }
-div#header h1 {font-size: 14; line-height: 22px; margin-bottom: 22px;
+div#header h1 {font-size: 14px; line-height: 22px; margin-bottom: 22px;
 
 }
-div#header h1 a {font-size: 28; line-height: 44px; margin-bottom: 22px;
+div#header h1 a {font-size: 14px; line-height: 22px; margin-bottom: 22px;
 
 }
 p.tagline {Margin-left: 0px;
 margin-bottom: 22px;
-font-size: 28; line-height: 44px;
+font-size: 14px; line-height: 22px;
 Margin-top: 0px;
 Position: relative; 
 
@@ -56,12 +56,10 @@ div #navigation{color:
 
 div#main {margin-left: 0px;
 }
-div#main p{font-size: 28; line-height: 44px;
+div#main p{
 }
 
-div#main h2 {font-size: 28; line-height: 44px;}
-
-div#supporting h2{font-size: 28; line-height: 44px;}
+div#supporting h2{}
 
 div#supporting ul.expertise {
 text-align: center;
@@ -82,18 +80,18 @@ div#footer ul.validators li {display: none;
 }
 
 /*Navigation*/
-ul#navigation {overflow: hidden;
+ul#navigation {line-height: 22px; overflow: hidden;
 border-top: 1px solid blue;
 margin-bottom: 22px;
 margin-left: 0px;
-font-size: 28; line-height: 44px;
+
 }
 
 ul#navigation li {float: left;
 display: inline;
 Margin-right: 2px;
 Width: 99px
-font-size: 28; line-height: 44px;
+font-size: 14; line-height: 44px;
 }
 
 
@@ -120,7 +118,7 @@ ul#navigation li a:focus {background-color: yellow;
 /*Content Typography: Headings*/
 div#content h2 {font-size: 14pt;
 margin-bottom:22px;
-font-size: 28; line-height: 44px;
+
 
 }
 div#content h3 { font-size: 14pt;
@@ -135,7 +133,7 @@ div#content h6 {
 }
 
 /*Content Typography: Paragraphs*/
-div#content p {
+div#content p {margin-bottom: 22px;
 }
 
 /*Content Typography: Unordered Lists*/
@@ -173,7 +171,7 @@ p{
 	margin-bottom:22px;
 	margin-top: 22px;
 	margin-left:0px;
-	font-size: 28; line-height: 44px;
+	font-size: 14px; line-height: 22px;
 }
 
 #contact li{text-align: center;}
