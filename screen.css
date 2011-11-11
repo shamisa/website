@@ -137,14 +137,16 @@ div#content p {margin-bottom: 22px;
 }
 
 /*Content Typography: Unordered Lists*/
-div#content ul {
-}
-div#content ul li {
+div#content ul{
+} 
+
+
+div#content ul li {margin-bottom: 22px;
 }
 /*Nested*/
-div#content * li ul {
+div#content * li ul {margin-bottom: 22px;
 }
-div#content * li ul li {
+div#content * li ul li {margin-bottom: 22px;
 }
 
 /*Content Typography: Ordered Lists*/
@@ -203,9 +205,8 @@ h3 {
 } 
 
 ul {
-	margin-bottom:20px;
-	margin-top: 20px;
-	margin-left: 20px;
+	margin-bottom: 22px;
+	
 }	
 
 .floatright { float: right; margin: 15px 15px 15px 15px; }
