@@ -229,9 +229,10 @@ div#content a:focus {
 
 
 
-img {max-width: 80%;
+img {max-width: 30%;
 display: block;
-border: 1px solid blue;
+background-color: blue;
+border: 
 margin: 22px 22px 22px 22px; }
 	
 
