@@ -13,7 +13,7 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background-color:   
+body {background-color:  
 }
 
 /* Major Divisions */
@@ -28,7 +28,7 @@ margin: 0 auto;
 
     
 /* Header */
-div#header {padding: 0px; width:px; margin:0 auto; padding:22px 0;
+div#header {padding: 0px; width:px; margin:0 auto; padding: 22px 0;
 font-size: 14px; margin-bottom: 22px;
 
 
@@ -40,19 +40,24 @@ margin-left: 0px;
 text-align: center;
 font-size: Large;
 font-weight: bold;
+color: blue;
 
 }
-div#header h1 a {font-size: 14px; 
+div#header h1 a {font-size: 28px; 
 margin-bottom: 22px;
-
-
-
+font-family: 'Holtwood One SC', serif;
+color: blue;
 }
+
+
+
 p.tagline {Margin-left: 0px;
 margin-bottom: 22px;
+font-family: 'Bowlby One SC', sans-serif;
 font-size: 14px; 
 Position: relative; 
-width: 642px;
+width: 63.69%; /*642/1008=.06369*/
+
 
 }
 
@@ -74,15 +79,20 @@ text-align:left;
 list-style-type: disc;
 margin-left: 22px;
 margin-bottom: 
+
 }
 div#content ul.education {
 list-style-type: none;
 color: red;
-margin-left: 0px;}
+margin-left: 0px;
+margin-bottom: 14px;
+}
 
 div#content ul.skills {list-style-type: none;
 color: red;
 text-align: center;
+padding: 8px;
+
 }
 
 
@@ -109,31 +119,28 @@ div#footer ul.validators li {display: none;
 }
 
 /*Navigation*/
-ul#navigation {line-height: 22px; overflow: hidden;
-border-top: 1px solid blue;
-margin-bottom: 22px;
+ul#navigation {list-style:none;
 margin-left: 0px;
-
+margin:0px;
+padding:0;
+width:642px;
+border-top: 1px solid white
+line-height: 14px; overflow: hidden
 }
 
-ul#navigation li {float: left;
-display: inline;
-Margin-right: 5px;
-Width: 99px;
-line-height: 44px;
+ul#navigation li {display:inline
 }
 
 
-ul#navigation li a {float: left; margin-right: 0px;
-text-align: center;
-display: block;
-width: 84px;
-padding: 
-text-decoration: none;
-color: black;
-background-color: white;
-font-weight: bold;
-font-size: 14px;
+ul#navigation li a {text-decoration:none;
+padding:5px 0;
+width:100px;
+background: blue;
+color:#eee;
+float:left;
+text-align:center;
+border-left:1px solid #fff;
+
 }
 
 ul#navigation li a:visited {
@@ -147,7 +154,7 @@ ul#navigation li a:focus {background-color: yellow;
 /*Content Typography: Headings*/
 
 div#content h2 {font-size: 14pt;
-margin-bottom:22px;
+margin-bottom:8px;
 text-align: center;
 font-size: Large;
 font-weight: bold;
@@ -182,8 +189,10 @@ width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
 border:1px solid blue;
-background:white;
-margin-bottom: 22px}
+background:blue;
+margin-bottom: 0px;
+font-family: 'Bowlby One SC', sans-serif;
+}
 
 
 div#content ul.contracts {text-align: center;
@@ -196,13 +205,13 @@ margin-bottom: 22px;
 } 
 
 
-div#content ul li {margin-bottom: 22px;
+div#content ul li {margin-bottom: 0px;
 
 }
 /*Nested*/
-div#content * li ul {margin-bottom: 22px;
+div#content * li ul {margin-bottom: 0px;
 }
-div#content * li ul li {margin-bottom: 22px;
+div#content * li ul li {margin-bottom: 0px;
 }
 
 
