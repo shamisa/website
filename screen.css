@@ -13,7 +13,7 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background: white;
+body {background: #FFFFFF;
 }
 
 /* Major Divisions */
@@ -23,7 +23,7 @@ body {background: white;
 div#page {width: 100%; /*978/1014 =0.9645*/
 max-width: 1300px;
 margin: 0 auto; 
-background-color: white;
+background-color: #FFFFFF;
 
 }
 
@@ -35,12 +35,12 @@ margin:0 auto;
 padding: 22px 0;
 font-size: 14px; 
 margin-bottom: 0px;
-background: white;
+background: #FFFFFF;
 }
 
 div#header h1 {font-size: 14px; 
 margin-bottom: 22px;
-border-bottom: 1px solid blue;
+border-bottom: 1px solid #2B65EC;
 margin-left: 0px;
 text-align: center;
 font-size: Large;
@@ -72,7 +72,7 @@ div#header ul.accessibility {display: none;
 
 /* Content */
 
-div#content {background: red;
+div#content {background: #E41B17;
 }
 
 div#content ul.info {text-align: center;
@@ -82,11 +82,11 @@ color:;
 div#content ul.contact {text-align: center;
 }
 
-div#content ul.details { color: blue;
+div#content ul.details { color: #2B65EC;
 text-align:left; 
 list-style-type: disc;
 margin-left: 22px;
-margin-bottom: 14px
+margin-bottom: px
 
 }
 div#content ul.education {
@@ -117,7 +117,7 @@ div#supporting{
 }
 
 /* Footer */
-div#footer {background: white;
+div#footer {background: #FFFFFF;
 }
 div#footer p.credits {margin-left: 0px;
 }
@@ -132,7 +132,7 @@ margin-left: 0px;
 margin:0px;
 padding:0;
 width:810px;
-border-top: 1px solid blue
+border-top: 1px solid #2B65EC
 line-height: 14px; overflow: hidden
 }
 
@@ -143,7 +143,7 @@ ul#navigation li {display:inline
 ul#navigation li a {text-decoration:none;
 padding:5px 0;
 width:100px;
-background: blue;
+background: #2B65EC;
 color:#eee;
 float:left;
 text-align:center;
@@ -155,7 +155,7 @@ ul#navigation li a:visited {
 }
 
 ul#navigation li a:hover,
-ul#navigation li a:focus {background-color: yellow;
+ul#navigation li a:focus {background-color: #FDD017;
 }
 
 
@@ -199,7 +199,7 @@ div#content ul.expertise {text-align: center;
 width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
-border:1px solid blue;
+border:1px solid #2B65EC;
 background:blue;
 margin-bottom: 0px;
 font-family: 'Bowlby One SC', sans-serif;
@@ -210,7 +210,7 @@ div#content ul.contracts {text-align: center;
 width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
-border:1px solid blue;
+border:1px solid #2B65EC;
 background:white;
 margin-bottom: 22px;
 } 
@@ -241,7 +241,7 @@ div#content * li ol li {
 div#content a {display:inline;
 padding:0px 0;
 width:100px;
-background: blue;
+background: #2B65EC;
 color:#eee;
 text-align:center;
 margin-bottom: 0px
@@ -250,7 +250,7 @@ margin-bottom: 0px
 div#content a:visited {
 }
 div#content a:hover,
-div#content a:focus {color: yellow
+div#content a:focus {color: #FDD017;
 }
 
 
@@ -258,9 +258,11 @@ div#content a:focus {color: yellow
 
 img {max-width: 30%;
 display: block;
-background-color: blue;
-border: 
-margin: 22px 22px 22px 22px; }
+background-color: #2B65EC; 
+margin: 22px 22px 22px 22px;
+} 
+.floatright {14px;
+}
 	
 
 /*media quieries*/
