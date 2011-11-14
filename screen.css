@@ -76,7 +76,7 @@ div#content {background: red;
 }
 
 div#content ul.info {text-align: center;
-color: red;
+color:;
 }
 
 div#content ul.contact {text-align: center;
@@ -86,18 +86,18 @@ div#content ul.details { color: blue;
 text-align:left; 
 list-style-type: disc;
 margin-left: 22px;
-margin-bottom: 
+margin-bottom: 14px
 
 }
 div#content ul.education {
 list-style-type: none;
-color: red;
+color:;
 margin-left: 0px;
 margin-bottom: 14px;
 }
 
 div#content ul.skills {list-style-type: none;
-color: red;
+color: ;
 text-align: center;
 padding: 8px;
 
@@ -188,6 +188,9 @@ div#content p {margin-bottom: 22px;
 	margin-top: 22px;
 	margin-left:0px;
 	font-size: 14px; line-height: 22px;
+	width: 62.3em; /*width: 810/13= 62.3em; /* for non-IE */
+*width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
+
 }
 
 /*Content Typography: Unordered Lists*/
