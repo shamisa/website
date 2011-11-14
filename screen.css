@@ -13,26 +13,31 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background-color:  
+body {background: white;
 }
 
 /* Major Divisions */
 
 /* Page (Containing Div) */
  
-div#page {width: 96.45%; /*978/1014 =0.9645*/
+div#page {width: 100%; /*978/1014 =0.9645*/
 max-width: 1300px;
 margin: 0 auto; 
+background-color: white;
 
 }
 
     
 /* Header */
-div#header {padding: 0px; width:px; margin:0 auto; padding: 22px 0;
-font-size: 14px; margin-bottom: 22px;
-
-
+div#header {padding: 0px; 
+width: 96.45%; /*978/1014 =0.9645*/
+margin:0 auto; 
+padding: 22px 0;
+font-size: 14px; 
+margin-bottom: 0px;
+background: white;
 }
+
 div#header h1 {font-size: 14px; 
 margin-bottom: 22px;
 border-bottom: 1px solid blue;
@@ -67,7 +72,10 @@ div#header ul.accessibility {display: none;
 
 /* Content */
 
-div#content ul.info { text-align: center;
+div#content {background: red;
+}
+
+div#content ul.info {text-align: center;
 color: red;
 }
 
@@ -109,7 +117,7 @@ div#supporting{
 }
 
 /* Footer */
-div#footer {margin-left:
+div#footer {background: white;
 }
 div#footer p.credits {margin-left: 0px;
 }
@@ -123,8 +131,8 @@ ul#navigation {list-style:none;
 margin-left: 0px;
 margin:0px;
 padding:0;
-width:642px;
-border-top: 1px solid white
+width:810px;
+border-top: 1px solid blue
 line-height: 14px; overflow: hidden
 }
 
@@ -154,7 +162,7 @@ ul#navigation li a:focus {background-color: yellow;
 /*Content Typography: Headings*/
 
 div#content h2 {font-size: 14pt;
-margin-bottom:8px;
+margin-bottom:0px;
 text-align: center;
 font-size: Large;
 font-weight: bold;
@@ -227,12 +235,19 @@ div#content * li ol li {
 }
 
 /*Content Typography: Links*/
-div#content a {display: none;
+div#content a {display:inline;
+padding:0px 0;
+width:100px;
+background: blue;
+color:#eee;
+text-align:center;
+margin-bottom: 0px
+
 }
 div#content a:visited {
 }
 div#content a:hover,
-div#content a:focus {
+div#content a:focus {color: yellow
 }
 
 
@@ -247,7 +262,7 @@ margin: 22px 22px 22px 22px; }
 
 /*media quieries*/
 @media screen and (max-device-width: 400px) {{ div {border:none;}
-  .column {
+ .expertise{
     float: none;
   }
   
