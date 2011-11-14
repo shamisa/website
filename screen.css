@@ -24,6 +24,7 @@ div#page {width: 100%; /*978/1014 =0.9645*/
 max-width: 1300px;
 margin: 0 auto; 
 background-color: #FFFFFF;
+padding: 2px solid black;
 
 }
 
