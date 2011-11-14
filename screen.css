@@ -14,6 +14,8 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 html {
 }
 body {background: #FFFFFF;
+width: 90%;
+
 }
 
 /* Major Divisions */
@@ -62,7 +64,7 @@ margin-bottom: 22px;
 font-family: 'Bowlby One SC', sans-serif;
 font-size: 14px; 
 Position: relative; 
-width: 63.69%; /*642/1008=.06369*/
+width: 55.35%; /*558/1008=.055357*/
 
 
 }
@@ -77,13 +79,13 @@ div#content {background: #E41B17;
 }
 
 div#content ul.info {text-align: center;
-color:;
+margin-bottom: 22px;
 }
 
 div#content ul.contact {text-align: center;
 }
 
-div#content ul.details { color: #2B65EC;
+div#content ul.details { 
 text-align:left; 
 list-style-type: disc;
 margin-left: 22px;
@@ -92,18 +94,21 @@ margin-bottom: px
 }
 div#content ul.education {
 list-style-type: none;
-color:;
 margin-left: 0px;
-margin-bottom: 14px;
+margin-bottom: 0px;
+
 }
 
 div#content ul.skills {list-style-type: none;
-color: ;
 text-align: center;
 padding: 8px;
 
 }
-
+div#content ul.services {ext-align:left; 
+list-style-type: disc;
+margin-left: 0px;
+margin-bottom: 0px;
+}
 
 div #navigation{color: 
 } 
@@ -111,7 +116,7 @@ div #navigation{color:
 div#main {
 }
 
-}
+
 
 div#supporting{
 
@@ -164,12 +169,12 @@ ul#navigation li a:focus {background-color: #FDD017;
 
 div#content h2 {font-size: 14pt;
 margin-bottom:0px;
-text-align: center;
+text-align:center;
 font-size: Large;
 font-weight: bold;
-margin-left: 20px
-
+padding: 8px;
 }
+
 div#content h3 { font-size: 14pt;
 margin-bottom: 22px;
 margin-top: 15px;
@@ -187,7 +192,7 @@ div#content h6 {
 /*Content Typography: Paragraphs*/
 div#content p {margin-bottom: 22px;
 	margin-top: 22px;
-	margin-left:0px;
+	margin-left:14px;
 	font-size: 14px; line-height: 22px;
 	width: 62.3em; /*width: 810/13= 62.3em; /* for non-IE */
 *width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
@@ -201,8 +206,8 @@ width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
 border:1px solid #2B65EC;
-background:blue;
-margin-bottom: 0px;
+background:#2B65EC;
+margin-bottom: 22px;
 font-family: 'Bowlby One SC', sans-serif;
 }
 
@@ -212,18 +217,18 @@ width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
 border:1px solid #2B65EC;
-background:white;
+background:#FFFFFF;
 margin-bottom: 22px;
 } 
 
 
-div#content ul li {margin-bottom: 0px;
+div#content ul li {
 
 }
 /*Nested*/
-div#content * li ul {margin-bottom: 0px;
+div#content * li ul {margin-bottom: px;
 }
-div#content * li ul li {margin-bottom: 0px;
+div#content * li ul li {margin-bottom: px;
 }
 
 
@@ -245,7 +250,9 @@ width:100px;
 background: #2B65EC;
 color:#eee;
 text-align:center;
-margin-bottom: 0px
+margin-bottom: 0px;
+text-decoration:underline;
+
 
 }
 div#content a:visited {
@@ -255,7 +262,11 @@ div#content a:focus {color: #FDD017;
 }
 
 
-
+ul {
+margin-bottom:20px;
+margin-top: 20px;
+margin-left: 0px;
+} 
 
 img {max-width: 30%;
 display: block;
