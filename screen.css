@@ -13,7 +13,7 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background: #FFFFFF;
+body {background: ;
 width: 90%;
 
 }
@@ -25,8 +25,8 @@ width: 90%;
 div#page {width: 100%; /*978/1014 =0.9645*/
 max-width: 1300px;
 margin: 0 auto; 
-background-color: #FFFFFF;
-padding: 2px solid black;
+background-color: ;
+
 
 }
 
@@ -38,29 +38,29 @@ margin:0 auto;
 padding: 22px 0;
 font-size: 14px; 
 margin-bottom: 0px;
-background: #FFFFFF;
+background: ;
 }
 
 div#header h1 {font-size: 14px; 
 margin-bottom: 22px;
-border-bottom: 1px solid #2B65EC;
 margin-left: 0px;
 text-align: center;
 font-size: Large;
 font-weight: bold;
-color: blue;
+color: #2B65EC;
+
 
 }
 div#header h1 a {font-size: 28px; 
 margin-bottom: 22px;
 font-family: 'Holtwood One SC', serif;
-color: blue;
+color: #2B65EC;
 }
 
 
 
 p.tagline {Margin-left: 0px;
-margin-bottom: 22px;
+margin-bottom: 0px;
 font-family: 'Bowlby One SC', sans-serif;
 font-size: 14px; 
 Position: relative; 
@@ -75,7 +75,10 @@ div#header ul.accessibility {display: none;
 
 /* Content */
 
-div#content {background: #E41B17;
+div#content {background:; 
+float:left;
+width:687px;
+margin: 14px;
 }
 
 div#content ul.info {text-align: center;
@@ -87,7 +90,7 @@ div#content ul.contact {text-align: center;
 
 div#content ul.details { 
 text-align:left; 
-list-style-type: disc;
+list-style-type: none;
 margin-left: 22px;
 margin-bottom: px
 
@@ -112,6 +115,54 @@ margin-bottom: 0px;
 
 div #navigation{color: 
 } 
+/*sidebar*/
+div#sidebar {float:right;
+width: 340px;
+background:;
+height: 100%;
+padding: 5px;
+}  
+ 
+
+ul#sidebar{list-style:none;
+margin-left: 0px;
+margin:0px;
+padding:;
+width:500px;
+line-height: 14px; overflow: ;
+margin-left: 5px;  
+margin-top: 3px;
+ 
+
+}
+
+ul#sidebar li {display:block;
+padding-bottom: 22px;
+Font-size: 22px;
+margin-top: 22px; 
+}
+
+
+ul#sidebar li a {text-decoration:none;
+padding:5px 0;
+width:100px;
+background: #2B65EC;
+color:#eee;
+float: ;
+text-align:center;
+border-left:1px solid #fff;
+}
+#sidebar h2 { text-align: left; 
+    font-size: 24px;  
+    color: #044055;  
+    font-weight: bold;  
+    padding-bottom: 22px;  
+    padding-left: 15px;
+margin-top: 30px;	
+	
+}  
+
+
 
 div#main {
 }
@@ -123,7 +174,7 @@ div#supporting{
 }
 
 /* Footer */
-div#footer {background: #FFFFFF;
+div#footer {clear:both;
 }
 div#footer p.credits {margin-left: 0px;
 }
@@ -138,7 +189,6 @@ margin-left: 0px;
 margin:0px;
 padding:0;
 width:810px;
-border-top: 1px solid #2B65EC
 line-height: 14px; overflow: hidden
 }
 
@@ -168,11 +218,13 @@ ul#navigation li a:focus {background-color: #FDD017;
 /*Content Typography: Headings*/
 
 div#content h2 {font-size: 14pt;
-margin-bottom:0px;
+margin-top:14px;
 text-align:center;
-font-size: Large;
+font-size: 24px;  
+color: #044055; 
+font-size: ;
 font-weight: bold;
-padding: 8px;
+padding: 14px;
 }
 
 div#content h3 { font-size: 14pt;
@@ -190,11 +242,12 @@ div#content h6 {
 }
 
 /*Content Typography: Paragraphs*/
-div#content p {margin-bottom: 22px;
-	margin-top: 22px;
+div#content p {
+margin-bottom: 22px;
+	margin-top: 0px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
-	width: 62.3em; /*width: 810/13= 62.3em; /* for non-IE */
+	width: 642px; /*width: 810/13= 62.3em; /* for non-IE */
 *width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
 
 }
@@ -223,12 +276,14 @@ margin-bottom: 22px;
 
 
 div#content ul li {
-
+list-style-type: none;
 }
 /*Nested*/
-div#content * li ul {margin-bottom: px;
+div#content * li ul { list-style-type: none;
+margin-bottom: px;
 }
-div#content * li ul li {margin-bottom: px;
+div#content * li ul li {list-style-type: none;
+margin-bottom: px;
 }
 
 
@@ -247,11 +302,11 @@ div#content * li ol li {
 div#content a {display:inline;
 padding:0px 0;
 width:100px;
-background: #2B65EC;
+background: ;
 color:#eee;
 text-align:center;
 margin-bottom: 0px;
-text-decoration:underline;
+text-decoration:;
 
 
 }
@@ -268,14 +323,22 @@ margin-top: 20px;
 margin-left: 0px;
 } 
 
-img {max-width: 30%;
+div#content img {max-width: 30%;
 display: block;
-background-color: #2B65EC; 
+background-color: #2B65EC;
+float: right;
+margin:22px 244px 66px 66px;  
+ 
+}	
+div#header img {max-width: 30%;
+display: block;
+background-color: #2B65EC;
 margin: 22px 22px 22px 22px;
-} 
-.floatright {14px;
 }
-	
+
+ 
+
+
 
 /*media quieries*/
 @media screen and (max-device-width: 400px) {{ div {border:none;}
