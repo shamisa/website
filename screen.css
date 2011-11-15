@@ -1,4 +1,21 @@
-﻿/* screen.css: Screen Styles */
+﻿/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.2r1
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+/*
+	Modification: This selector has been commented out; it uses the asterisk hack 
+	(see http://www.javascriptkit.com/dhtmltutors/csshacks3.shtml) which only 
+	matters for IE 7 and earlier. If it is needed, put it in the 
+	css/screen-ie.css file, without the * before font-size (K. Stolley):
+*/
+/*input,button,textarea,select{*font-size:100%;}*/
+
+
+
+/* screen.css: Screen Styles */
 
 /* Base Styles */
 
@@ -13,8 +30,8 @@ abbr,acronym { border-bottom: 1px dotted; cursor: help; }
 
 html {
 }
-body {background: ;
-width: 90%;
+body {background: #FFFFFF;
+width: 100%;
 
 }
 
@@ -22,10 +39,10 @@ width: 90%;
 
 /* Page (Containing Div) */
  
-div#page {width: 100%; /*978/1014 =0.9645*/
+div#page {width: 96.45%; /*978/1014 =0.9645*/
 max-width: 1300px;
 margin: 0 auto; 
-background-color: ;
+background-color: #FFFFFF;
 
 
 }
@@ -38,7 +55,7 @@ margin:0 auto;
 padding: 22px 0;
 font-size: 14px; 
 margin-bottom: 0px;
-background: ;
+background:#FFFFFF ;
 }
 
 div#header h1 {font-size: 14px; 
@@ -59,12 +76,13 @@ color: #2B65EC;
 
 
 
-p.tagline {Margin-left: 0px;
+p.tagline {width: 55.35%; /*558/1008=.055357*/
+margin-left: 0px;
 margin-bottom: 0px;
 font-family: 'Bowlby One SC', sans-serif;
 font-size: 14px; 
 Position: relative; 
-width: 55.35%; /*558/1008=.055357*/
+
 
 
 }
@@ -75,9 +93,9 @@ div#header ul.accessibility {display: none;
 
 /* Content */
 
-div#content {background:; 
+div#content {background:#E41B17; 
 float:left;
-width:687px;
+width:69.44; /*700/1008=.69444*/
 margin: 14px;
 }
 
@@ -103,8 +121,9 @@ margin-bottom: 0px;
 }
 
 div#content ul.skills {list-style-type: none;
+width: 978px;
 text-align: center;
-padding: 8px;
+padding: 5px;
 
 }
 div#content ul.services {ext-align:left; 
@@ -116,9 +135,8 @@ margin-bottom: 0px;
 div #navigation{color: 
 } 
 /*sidebar*/
-div#sidebar {float:right;
+div#sidebar {background-color: #FFFFFF; float:right;
 width: 340px;
-background:;
 height: 100%;
 padding: 5px;
 }  
@@ -127,10 +145,9 @@ padding: 5px;
 ul#sidebar{list-style:none;
 margin-left: 0px;
 margin:0px;
-padding:;
-width:500px;
-line-height: 14px; overflow: ;
-margin-left: 5px;  
+width:300px;
+line-height: 22px; 
+margin-right: 5px;  
 margin-top: 3px;
  
 
@@ -144,13 +161,16 @@ margin-top: 22px;
 
 
 ul#sidebar li a {text-decoration:none;
-padding:5px 0;
-width:100px;
+padding:10px 10px;
+width: 340px;
 background: #2B65EC;
 color:#eee;
-float: ;
 text-align:center;
 border-left:1px solid #fff;
+}
+
+ul#sidebar li a:hover,
+ul#sidebar li a:focus {background-color: #FDD017;
 }
 #sidebar h2 { text-align: left; 
     font-size: 24px;  
@@ -158,26 +178,31 @@ border-left:1px solid #fff;
     font-weight: bold;  
     padding-bottom: 22px;  
     padding-left: 15px;
-margin-top: 30px;	
+	margin-top: 30px;
+	margin-left: 22px:
 	
 }  
 
 
 
-div#main {
-}
-
-
-
-div#supporting{
-
-}
-
 /* Footer */
-div#footer {clear:both;
+div#footer {clear: both;
+ padding-top: 10px;  
+ padding-bottom:5px;  
+ margin-top: 10px;  
+ color: #fff;
+ background: black;
+ margin: 0 ;
+ width: 100%;
+ 
+
 }
 div#footer p.credits {margin-left: 0px;
+
+
 }
+
+
 div#footer ul.validators {
 }
 div#footer ul.validators li {display: none;
@@ -188,7 +213,7 @@ ul#navigation {list-style:none;
 margin-left: 0px;
 margin:0px;
 padding:0;
-width:810px;
+width:81%; /*81/1008=8.1*/
 line-height: 14px; overflow: hidden
 }
 
@@ -205,6 +230,7 @@ float:left;
 text-align:center;
 border-left:1px solid #fff;
 
+
 }
 
 ul#navigation li a:visited {
@@ -218,7 +244,7 @@ ul#navigation li a:focus {background-color: #FDD017;
 /*Content Typography: Headings*/
 
 div#content h2 {font-size: 14pt;
-margin-top:14px;
+margin-top: 12px;
 text-align:center;
 font-size: 24px;  
 color: #044055; 
@@ -247,31 +273,30 @@ margin-bottom: 22px;
 	margin-top: 0px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
-	width: 642px; /*width: 810/13= 62.3em; /* for non-IE */
+	width: 700px; /*width: 810/13= 80.3em; /* for non-IE */
 *width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
 
 }
 
+ div#content p.article {margin-bottom: 22px;
+	margin-top: 0px;
+	margin-left:14px;
+	font-size: 14px; line-height: 22px;
+	width: 810px;
+	
+	}
+
 /*Content Typography: Unordered Lists*/
 
-div#content ul.expertise {text-align: center;
-width:63.69%; /* 642/ 1008 = 0.6369 */
-margin-left:auto;
-margin-right:auto;	 
-border:1px solid #2B65EC;
-background:#2B65EC;
-margin-bottom: 22px;
-font-family: 'Bowlby One SC', sans-serif;
-}
-
-
-div#content ul.contracts {text-align: center;
+div#content ul.contracts {text-align: left;
 width:63.69%; /* 642/ 1008 = 0.6369 */
 margin-left:auto;
 margin-right:auto;	 
 border:1px solid #2B65EC;
 background:#FFFFFF;
 margin-bottom: 22px;
+margin-top: 22px;
+padding:10px 10px;
 } 
 
 
@@ -301,12 +326,11 @@ div#content * li ol li {
 /*Content Typography: Links*/
 div#content a {display:inline;
 padding:0px 0;
-width:100px;
+width:0px;
 background: ;
 color:#eee;
 text-align:center;
 margin-bottom: 0px;
-text-decoration:;
 
 
 }
@@ -323,17 +347,18 @@ margin-top: 20px;
 margin-left: 0px;
 } 
 
-div#content img {max-width: 30%;
+div#content img {max-width: 55%;
 display: block;
 background-color: #2B65EC;
 float: right;
-margin:22px 244px 66px 66px;  
+margin:22px 333px 66px 66px;  
  
 }	
 div#header img {max-width: 30%;
 display: block;
 background-color: #2B65EC;
 margin: 22px 22px 22px 22px;
+
 }
 
  
@@ -341,8 +366,48 @@ margin: 22px 22px 22px 22px;
 
 
 /*media quieries*/
-@media screen and (max-device-width: 400px) {{ div {border:none;}
- .expertise{
-    float: none;
-  }
+@media screen and (min-width: 200px) {
+p.tagline {
+ width: 420px;
+ float: left;
+ font-size: 12px;
+ }
+ 
+ @media screen and (min-width: 100px) {
+p.company {width: 306px;
+float: left;
+}
+ 
+ @media screen and (min-width: 200px) {
+ div#header{
+ width: 138px;
+ float: left;
+ font-size: 12px;
+ }
+ 
+ 
+ @media screen and (min-width: 200px) {
+div#content{
+ width: 138px;
+ float: left;
+ }
+ @media screen and (min-width: 800px) and (max-width: 1200px) { 
+.contracts {
+background: #cc0000;
+width: 30%;
+float: right;
+}
+@media screen and (min-width: 200px) {
+div#navigation{
+border: 5px solid white;
+position: fixed;
+top: 75px;
+left: 10px;
+height: auto;
+ 
+ }
+ 
+@media screen and (max-device-width: 400px) {
+div {border:none;}
+ 
   
