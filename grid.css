@@ -1,0 +1,29 @@
+﻿/* Typographic Grids */
+
+
+.t22 {
+  line-height: 22px;
+  font-size: 14px;
+  background-image: url('22px-baseline.png');
+}
+
+/* Column Grids */
+/* See http://960.gs/ */
+@media screen and (min-width: 1010px) {
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('img/960px-10-60-10-unit.png');
+  }
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('978px-15-54-15-unit.png');
+  }
+}
+
+/* Example-specific Styles */
+a {
+  text-decoration: none; /*Lose underlining on links to make grid easier to see*/
+}
