@@ -95,7 +95,7 @@ div#header ul.accessibility {display: none;
 
 div#content {background:#E41B17; 
 float:left;
-width:69.44; /*700/1008=.69444*/
+width:69.44%; /*700/1008=.69444*/
 margin: 14px;
 }
 
@@ -110,7 +110,6 @@ div#content ul.details {
 text-align:left; 
 list-style-type: none;
 margin-left: 22px;
-margin-bottom: px
 
 }
 div#content ul.education {
@@ -126,23 +125,22 @@ text-align: center;
 padding: 5px;
 
 }
-div#content ul.services {ext-align:left; 
+div#content ul.services {text-align:left; 
 list-style-type: disc;
 margin-left: 0px;
 margin-bottom: 0px;
 }
 
-div #navigation{color: 
+div #navigation{ 
 } 
 /*sidebar*/
 div#sidebar {background-color: #FFFFFF; float:right;
 width: 340px;
 height: 100%;
 padding: 5px;
-}  
- 
+}   
 
-ul#sidebar{list-style:none;
+ul#expertise{list-style:none;
 margin-left: 0px;
 margin:0px;
 width:300px;
@@ -153,14 +151,14 @@ margin-top: 3px;
 
 }
 
-ul#sidebar li {display:block;
+ul#expertise li {display:block;
 padding-bottom: 22px;
 Font-size: 22px;
 margin-top: 22px; 
 }
 
 
-ul#sidebar li a {text-decoration:none;
+ul#expertise li a {text-decoration:none;
 padding:10px 10px;
 width: 340px;
 background: #2B65EC;
@@ -173,13 +171,13 @@ ul#sidebar li a:hover,
 ul#sidebar li a:focus {background-color: #FDD017;
 }
 #sidebar h2 { text-align: left; 
-    font-size: 24px;  
+    font-size: 14pt;  
     color: #044055;  
     font-weight: bold;  
     padding-bottom: 22px;  
     padding-left: 15px;
 	margin-top: 30px;
-	margin-left: 22px:
+	margin-left: 22px;
 	
 }  
 
@@ -248,7 +246,6 @@ margin-top: 12px;
 text-align:center;
 font-size: 24px;  
 color: #044055; 
-font-size: ;
 font-weight: bold;
 padding: 14px;
 }
@@ -274,7 +271,7 @@ margin-bottom: 22px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
 	width: 700px; /*width: 810/13= 80.3em; /* for non-IE */
-*width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
+/*width: 810/13 x .9759=60.80em;/*for IE */
 
 }
 
@@ -305,10 +302,10 @@ list-style-type: none;
 }
 /*Nested*/
 div#content * li ul { list-style-type: none;
-margin-bottom: px;
+
 }
 div#content * li ul li {list-style-type: none;
-margin-bottom: px;
+
 }
 
 
@@ -326,8 +323,7 @@ div#content * li ol li {
 /*Content Typography: Links*/
 div#content a {display:inline;
 padding:0px 0;
-width:0px;
-background: ;
+width:0px; 
 color:#eee;
 text-align:center;
 margin-bottom: 0px;

@@ -108,14 +108,14 @@ margin-left: 0px;
 text-align: center;
 font-size: Large;
 font-weight: bold;
-color: 
+
 
 
 }
 div#header h1 a {font-size: 28px; 
 margin-bottom: 22px;
 font-family: 'Holtwood One SC', serif;
-color: 
+
 }
 
 
@@ -138,7 +138,7 @@ div#header ul.accessibility {display: none;
 
 div#content { 
 float:left;
-width:69.44; /*700/1008=.69444*/
+width:69.44%; /*700/1008=.69444*/
 margin: 14px;
 }
 
@@ -153,7 +153,7 @@ div#content ul.details {
 text-align:left; 
 list-style-type: none;
 margin-left: 22px;
-margin-bottom: px
+
 
 }
 div#content ul.education {
@@ -169,13 +169,13 @@ text-align: center;
 padding: 5px;
 
 }
-div#content ul.services {ext-align:left; 
+div#content ul.services {text-align:left; 
 list-style-type: disc;
 margin-left: 0px;
 margin-bottom: 0px;
 }
 
-div #navigation{color: 
+div #navigation{ 
 } 
 /*sidebar*/
 div#sidebar {float:right;
@@ -185,7 +185,7 @@ padding: 5px;
 }  
  
 
-ul#sidebar{list-style:none;
+ul#expertise{list-style:none;
 margin-left: 0px;
 margin:0px;
 width:300px;
@@ -196,14 +196,14 @@ margin-top: 3px;
 
 }
 
-ul#sidebar li {display:block;
+ul#expertise li {display:block;
 padding-bottom: 22px;
 Font-size: 22px;
 margin-top: 22px; 
 }
 
 
-ul#sidebar li a {text-decoration:none;
+ul#expertise li a {text-decoration:none;
 padding:10px 10px;
 width: 340px;
 background: #2B65EC;
@@ -221,7 +221,7 @@ ul#sidebar li a:focus {
     padding-bottom: 22px;  
     padding-left: 15px;
 	margin-top: 30px;
-	margin-left: 22px:
+	margin-left: 22px;
 	
 }  
 
@@ -285,7 +285,6 @@ div#content h2 {font-size: 14pt;
 margin-top: 12px;
 text-align:center;
 font-size: 24px;   
-font-size: ;
 font-weight: bold;
 padding: 14px;
 }
@@ -306,7 +305,7 @@ margin-bottom: 22px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
 	width: 700px; /*width: 810/13= 80.3em; /* for non-IE */
-*width: 60.80em; /*width: 810/13 x .9759=60.80em;/*for IE */
+ /*width: 810/13 x .9759=60.80em;/*for IE */
 
 }
 
@@ -335,10 +334,9 @@ list-style-type: none;
 }
 /*Nested*/
 div#content * li ul { list-style-type: none;
-margin-bottom: px;
+
 }
 div#content * li ul li {list-style-type: none;
-margin-bottom: px;
 }
 
 
@@ -365,7 +363,7 @@ margin-bottom: 0px;
 div#content a:visited {
 }
 div#content a:hover,
-div#content a:focus {color: 
+div#content a:focus {
 }
 
 
@@ -391,49 +389,3 @@ margin: 22px 22px 22px 22px;
 
 
 
-/*media quieries*/
-@media screen and (min-width: 200px) {
-p.tagline {
- width: 420px;
- float: left;
- font-size: 12px;
- }
- 
- @media screen and (min-width: 100px) {
-p.company {width: 306px;
-float: left;
-}
- 
- @media screen and (min-width: 200px) {
- div#header{
- width: 138px;
- float: left;
- font-size: 12px;
- }
- 
- 
- @media screen and (min-width: 200px) {
-div#content{
- width: 138px;
- float: left;
- }
- @media screen and (min-width: 800px) and (max-width: 1200px) { 
-.contracts {
-background: #cc0000;
-width: 30%;
-float: right;
-}
-@media screen and (min-width: 200px) {
-div#navigation{
-border: 5px solid white;
-position: fixed;
-top: 75px;
-left: 10px;
-height: auto;
- 
- }
- 
-@media screen and (max-device-width: 400px) {
-div {border:none;}
- 
-  
