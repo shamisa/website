@@ -345,7 +345,6 @@ margin-left: 0px;
 
 div#content img {max-width: 55%;
 display: block;
-background-color: #2B65EC;
 float: right;
 margin:22px 333px 66px 66px;  
  
@@ -381,15 +380,10 @@ float: left;
  font-size: 12px;
  }
  
- 
- @media screen and (min-width: 200px) {
-div#content{
- width: 138px;
- float: left;
+
  }
  @media screen and (min-width: 800px) and (max-width: 1200px) { 
 .contracts {
-background: #cc0000;
 width: 30%;
 float: right;
 }
