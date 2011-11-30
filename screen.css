@@ -76,7 +76,7 @@ color: #2B65EC;
 
 
 
-p.tagline {width: 55.35%; /*558/1008=.055357*/
+p.tagline {
 margin-left: 0px;
 margin-bottom: 0px;
 font-family: 'Bowlby One SC', sans-serif;
@@ -120,9 +120,9 @@ margin-bottom: 0px;
 }
 
 div#content ul.skills {list-style-type: none;
-width: 978px;
 text-align: center;
 padding: 5px;
+
 
 }
 div#content ul.services {text-align:left; 
@@ -270,16 +270,20 @@ margin-bottom: 22px;
 	margin-top: 0px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
-	width: 700px; /*width: 810/13= 80.3em; /* for non-IE */
+	
 /*width: 810/13 x .9759=60.80em;/*for IE */
 
+
+
 }
+
+
 
  div#content p.article {margin-bottom: 22px;
 	margin-top: 0px;
 	margin-left:14px;
 	font-size: 14px; line-height: 22px;
-	width: 810px;
+	
 	
 	}
 
