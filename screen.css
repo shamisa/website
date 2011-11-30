@@ -349,8 +349,8 @@ margin-left: 0px;
 
 div#content img {max-width: 55%;
 display: block;
-float: right;
-margin:22px 333px 66px 66px;  
+float: left;
+margin:22px 110px 66px 66px;  
  
 }	
 div#header img {max-width: 30%;
@@ -367,7 +367,7 @@ margin: 22px 22px 22px 22px;
 /*media quieries*/
 @media screen and (min-width: 200px) {
 p.tagline {
- width: 420px;
+ 
  float: left;
  font-size: 12px;
  }
