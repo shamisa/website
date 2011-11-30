@@ -350,7 +350,7 @@ margin-left: 0px;
 div#content img {max-width: 55%;
 display: block;
 float: left;
-margin:22px 110px 66px 66px;  
+margin:22px 110px 138px 138px;  
  
 }	
 div#header img {max-width: 30%;
@@ -367,22 +367,24 @@ margin: 22px 22px 22px 22px;
 /*media quieries*/
 @media screen and (min-width: 200px) {
 p.tagline {
- 
+ width: 
  float: left;
  font-size: 12px;
+ }
  }
  
  @media screen and (min-width: 100px) {
 p.company {width: 306px;
 float: left;
-}
- 
- @media screen and (min-width: 200px) {
- div#header{
+div#header{
  width: 138px;
  float: left;
  font-size: 12px;
  }
+}
+ 
+ @media screen and (min-width: 200px) {
+ 
  
 
  }
