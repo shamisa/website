@@ -359,7 +359,9 @@ background-color: #2B65EC;
 margin: 22px 22px 22px 22px;
 
 }
-
+div#socialmedia img {max-width: 30%;
+display: block;
+}
  
 
 
@@ -373,12 +375,12 @@ p.tagline {
  }
  }
  
- @media screen and (min-width: 100px) {
+ @media screen and (min-width: 760px) {
 p.company {width: 306px;
-float: left;
+float: none;
 div#header{
  width: 138px;
- float: left;
+ float: none;
  font-size: 12px;
  }
 }
@@ -399,7 +401,7 @@ border: 5px solid white;
 position: fixed;
 top: 75px;
 left: 10px;
-height: auto;
+height: auto;}
  
  }
  
