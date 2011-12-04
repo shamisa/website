@@ -68,7 +68,8 @@ color: #2B65EC;
 
 
 }
-div#header h1 a {font-size: 28px; 
+div#header h1 a {
+font-size: 28px; 
 margin-bottom: 22px;
 font-family: 'Holtwood One SC', serif;
 color: #2B65EC;
@@ -82,9 +83,6 @@ margin-bottom: 0px;
 font-family: 'Bowlby One SC', sans-serif;
 font-size: 14px; 
 Position: relative; 
-
-
-
 }
 
 /*Hide Stuff */
@@ -93,10 +91,13 @@ div#header ul.accessibility {display: none;
 
 /* Content */
 
-div#content {background:#E41B17; 
+div#content {background: #ccc;  
 float:left;
 width:69.44%; /*700/1008=.69444*/
 margin: 14px;
+border-radius: 15px;
+-moz-border-radius: 15px;
+
 }
 
 div#content ul.info {text-align: center;
@@ -133,44 +134,53 @@ margin-bottom: 0px;
 
 div #navigation{ 
 } 
-/*sidebar*/
-div#sidebar {background-color: #FFFFFF; float:right;
-width: 340px;
-height: 100%;
-padding: 5px;
-}   
+
+
 
 ul#expertise{list-style:none;
 margin-left: 0px;
 margin:0px;
-width:300px;
 line-height: 22px; 
 margin-right: 5px;  
 margin-top: 3px;
- 
-
 }
 
 ul#expertise li {display:block;
 padding-bottom: 22px;
 Font-size: 22px;
 margin-top: 22px; 
+text-align: center;
 }
 
 
 ul#expertise li a {text-decoration:none;
 padding:10px 10px;
-width: 340px;
 background: #2B65EC;
 color:#eee;
 text-align:center;
 border-left:1px solid #fff;
+-moz-border-radius: 15px;
 }
+
+/*sidebar*/
+
+div#sidebar {background-color: #FFFFFF; 
+
+height: 100%;
+padding: 5px;
+float: left;  
+    width: 180px;  
+    background: #ccc;  
+    margin: 10px;  
+-moz-border-radius: 15px;  
+}   
 
 ul#sidebar li a:hover,
 ul#sidebar li a:focus {background-color: #FDD017;
 }
-#sidebar h2 { text-align: left; 
+
+
+#sidebar li{ text-align: left; 
     font-size: 14pt;  
     color: #044055;  
     font-weight: bold;  
@@ -179,7 +189,11 @@ ul#sidebar li a:focus {background-color: #FDD017;
 	margin-top: 30px;
 	margin-left: 22px;
 	
-}  
+} 
+
+#sidebar h2 {font-size: 14pt;
+text-align: center;
+} 
 
 
 
@@ -192,6 +206,12 @@ div#footer {clear: both;
  background: black;
  margin: 0 ;
  width: 100%;
+ border: 8px solid #000;
+-moz-border-bottom-colors: #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+-moz-border-top-colors:    #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+-moz-border-left-colors:   #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+-moz-border-right-colors:  #555 #666 #777 #888 #999 #aaa #bbb #ccc;
+padding: 5px 5px 5px 15px;
  
 
 }
@@ -213,6 +233,7 @@ margin:0px;
 padding:0;
 width:81%; /*81/1008=8.1*/
 line-height: 14px; overflow: hidden
+
 }
 
 ul#navigation li {display:inline
@@ -227,7 +248,7 @@ color:#eee;
 float:left;
 text-align:center;
 border-left:1px solid #fff;
-
+-moz-border-radius: 15px;
 
 }
 
@@ -237,7 +258,6 @@ ul#navigation li a:visited {
 ul#navigation li a:hover,
 ul#navigation li a:focus {background-color: #FDD017;
 }
-
 
 /*Content Typography: Headings*/
 
